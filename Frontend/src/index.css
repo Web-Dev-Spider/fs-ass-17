@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --deepblue: #023047;
+  --footer: #339900;
+}
+
+.bg-deepblue {
+  background-color: var(--deepblue);
+}
+
+.text-footer {
+  color: var(--footer);
+}
+
+@utility container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
